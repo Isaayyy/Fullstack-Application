@@ -10,7 +10,7 @@ const app = express();
 
 // Set up CORS
 app.use(cors({
-        origin: ["https://newlife-southwoods.vercel.app"],
+        origin: ["https://nlsw-frontend.vercel.app"],
         methods: ["POST", "GET", "PUT", "DELETE", "OPTIONS"],
         //origin: 'http://localhost:5173',
         credentials: true
