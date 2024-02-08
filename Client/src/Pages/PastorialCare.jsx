@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import "../Pages/Page Styles/pastorialcare.css";
+import "../Pages/Page Styles/PastorialCare.css";
 import NavBar from "../Components/NavBar";
 import Footer from "../Components/Footer";
 import axios from "axios";
