@@ -23,7 +23,7 @@ import RegisterAdmin from "./Pages/RegisterAdmin";
 import { Toaster } from "react-hot-toast";
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:8000";
+axios.defaults.baseURL = "https://nlsw-api-omega.vercel.app";
 axios.defaults.withCredentials = true;
 
 function App() {
