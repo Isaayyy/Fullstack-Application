@@ -25,8 +25,10 @@ app.use(express.json());
 // // Initialize multer with memory storage
 // const upload = multer({ storage: storage });
 
+
 // Connecting Mongoose :3
-mongoose.connect(process.env.MONGO_URL)
+// mongoose.connect(process.env.MONGO_URL)
+mongoose.connect('mongodb+srv://nlswadmin01:NLSWdb1977@cluster0.o3qtadl.mongodb.net/test?retryWrites=true&w=majority')
 .then(() => console.log('Database Connected'))
 .catch((err) => console.log('Database not Connected :(' , err))
 
